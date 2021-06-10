@@ -47,7 +47,14 @@ Using the p-value from each test to use as a measure for significant statistical
 ![alt_text](https://raw.githubusercontent.com/bweirich/MechaCar_Statistical_Analysis/main/images/t_test_lot3.PNG)
 
 ## Study Design: MechaCar vs Competition
-An additional analysis to determine how MechaCar will compare to the compatiion would be to consider risidual value or resale value of a vehicle.  This is an important factor that many buyers consider when purchasing a vehicle as it helps detemine the depreciation rate of the vehicle.
+An additional analysis to determine how MechaCar will compare to the compatiion would be to consider price of the vehicle.  This is one of the most important factors that buyers consider when purchasing a vehicle. 
 
 ### Null & Alternative Hypothesis
-H<sub>0</sub>
+H<sub>0</sub>: There is no statistical difference between the mean price of the MechaCar and its competition's mean price.
+H<sub>a</sub>: There is a statistical difference between the mean price of the MechaCar and its competition's mean price.
+
+### Statistical Test 
+The best statistical test would be a two-sample t-test as the car types are dicotomous and the price is a continuous value.  The MechaCar can be compared to each individual competitor or the mean of all competitors.
+
+### Data Needed
+The data needed would be the price of the prototype MechaCar and the price of comparable models in the same size and class.  

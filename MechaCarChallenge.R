@@ -34,3 +34,19 @@ grp_lot <- susp_coil %>% group_by(Manufacturing_Lot)
 # create summary table for lots
 lot_summary <- summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI),
                          SD=sd(PSI), grp_lot)
+
+# t-test
+# t-test for all lots
+t.test(susp_coil$PSI, mu=1500)
+
+# t-test for lot 1
+lot_1 <- subset(susp_coil, Manufacturing_Lot == 'Lot1')
+t.test(lot_1$PSI, mu=1500)
+
+# t-test for lot 2
+lot_2 <- subset(susp_coil, Manufacturing_Lot == 'Lot2')
+t.test(lot_2$PSI, mu=1500)
+
+# t-test for lot 3
+lot_3 <- subset(susp_coil, Manufacturing_Lot == "Lot3")
+t.test(lot_3$PSI, mu=1500)

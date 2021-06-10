@@ -28,3 +28,20 @@ This analysis created a summary of PSI statistics for vehicles across 3 differen
 ![alt_text](https://raw.githubusercontent.com/bweirich/MechaCar_Statistical_Analysis/main/lot_summary.PNG)
 
 The design specification for the suspension coils dictates that the variance must not exceed 100 pounds per square inch..  From the above table we can see that the first 2 lots met this requirement but the third lot is above 1.5 times the specification.  
+
+## T-Tests on Suspension Coils
+This analysis used t-test to determine if the PSI for all manufacturing lots and each individual lot are statistically different from the population mean of 1,500 pounds per square inch.
+
+Using the p-value from each test to use as a measure for significant statistically difference.  Lot 3 was the only test to have a value below the p-value threshold of 0.05.  This shows that there is enough sufficient evidence to reject the null hypothesis and there is a statistical difference for lot 3.  All others are statistically similar to the mean of 1,500.
+
+### Combined Lots
+![alt_text]()
+
+### Lot 1
+![alt_text]()
+
+### Lot 2
+![alt_text]()
+
+### Lot 3
+![alt_text]()

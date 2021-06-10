@@ -43,5 +43,5 @@ Using the p-value from each test to use as a measure for significant statistical
 ### Lot 2
 ![alt_text](https://raw.githubusercontent.com/bweirich/MechaCar_Statistical_Analysis/main/images/t_test_lot2.PNG)
 
-<p style='color:red'>### Lot 3</p>
+### Lot 3
 ![alt_text](https://raw.githubusercontent.com/bweirich/MechaCar_Statistical_Analysis/main/images/t_test_lot3.PNG)

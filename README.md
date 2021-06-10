@@ -25,6 +25,6 @@ This analysis created a summary of PSI statistics for vehicles across 3 differen
 
 ![alt_text](https://raw.githubusercontent.com/bweirich/MechaCar_Statistical_Analysis/main/total_summary.PNG)
 
-![alt_text]()
+![alt_text](https://raw.githubusercontent.com/bweirich/MechaCar_Statistical_Analysis/main/lot_summary.PNG)
 
 The design specification for the suspension coils dictates that the variance must not exceed 100 pounds per square inch..  From the above table we can see that the first 2 lots met this requirement but the third lot is above 1.5 times the specification.  

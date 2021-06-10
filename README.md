@@ -16,7 +16,7 @@ The factors that have the most impact on MPG are Vehicle Length and Ground Clear
 
 The factors that have the most impact on MPG are Vehicle Length and Ground Clearance.  This is based on the PR(>|t|) value in the summary table below.
 
-The p-value of 5.35e-11 is well below the significance level of 0.05% whic means the slope is not zero.
+The p-value of 5.35e-11 is well below the significance level of 0.05% which means the slope is not zero.
 
 This model would be considered effective at predicting MPG because the R-Squared value is 0.7149 mean that the model is successful 71% of the time.
 
@@ -47,14 +47,14 @@ Using the p-value from each test to use as a measure for significant statistical
 ![alt_text](https://raw.githubusercontent.com/bweirich/MechaCar_Statistical_Analysis/main/images/t_test_lot3.PNG)
 
 ## Study Design: MechaCar vs Competition
-An additional analysis to determine how MechaCar will compare to the compatiion would be to consider price of the vehicle.  This is one of the most important factors that buyers consider when purchasing a vehicle. 
+An additional analysis to determine how MechaCar will compare to the competition would be to consider price of the vehicle.  This is one of the most important factors that buyers consider when purchasing a vehicle. 
 
 ### Null & Alternative Hypothesis
 H<sub>0</sub>: There is no statistical difference between the mean price of the MechaCar and its competition's mean price.
 H<sub>a</sub>: There is a statistical difference between the mean price of the MechaCar and its competition's mean price.
 
 ### Statistical Test 
-The best statistical test would be a two-sample t-test as the car types are dicotomous and the price is a continuous value.  The MechaCar can be compared to each individual competitor or the mean of all competitors.
+The best statistical test would be a two-sample t-test as the car types are dichotomous and the price is a continuous value.  The MechaCar can be compared to each individual competitor or the mean of all competitors.
 
 ### Data Needed
 The data needed would be the price of the prototype MechaCar and the price of comparable models in the same size and class.  

@@ -50,4 +50,4 @@ Using the p-value from each test to use as a measure for significant statistical
 An additional analysis to determine how MechaCar will compare to the compatiion would be to consider risidual value or resale value of a vehicle.  This is an important factor that many buyers consider when purchasing a vehicle as it helps detemine the depreciation rate of the vehicle.
 
 ### Null & Alternative Hypothesis
-H![alt_text](U+2070)
+H<sub>0</sub>

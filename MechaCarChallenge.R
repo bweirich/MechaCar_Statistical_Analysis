@@ -11,5 +11,8 @@ head(mecha_mpg)
 lm_mpg <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,
    data=mecha_mpg)
 
+# view linear regression model
+print(lm_mpg)
+
 # view summary of linear regression model for p-value
 summary(lm_mpg)

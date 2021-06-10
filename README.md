@@ -23,7 +23,7 @@ This model would be considered effective at predicting MPG because the R-Squared
 ## Summary Statistics on Suspension Coils
 This analysis created a summary of PSI statistics for vehicles across 3 different lots.  The tables below summarize the statistics for all lots combined and the statistics by table.
 
-![alt_text]()
+![alt_text](https://raw.githubusercontent.com/bweirich/MechaCar_Statistical_Analysis/main/total_summary.PNG)
 
 ![alt_text]()
 

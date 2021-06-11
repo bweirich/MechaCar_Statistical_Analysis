@@ -57,4 +57,4 @@ H<sub>a</sub>: There is a statistical difference between the mean price of the M
 The best statistical test would be a two-sample t-test as the car types are dichotomous and the price is a continuous value.  The MechaCar can be compared to each individual competitor or the mean of all competitors.
 
 ### Data Needed
-The data needed would be the price of the prototype MechaCar and the price of comparable models in the same size and class.  
+The data needed would be the price of the prototype MechaCar and the price of comparable models of the same size and class.  
